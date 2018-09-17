@@ -642,6 +642,19 @@ label{
 .header{
 	margin-top: 35px;
 	margin-bottom: 10px;
+	@media (max-width: 992px){
+		margin-top: 10px;
+	}
+	.logo{
+		img{
+			@media (max-width: 992px){
+				max-width:100px;
+			}
+			@media (max-width: 767px){
+				max-width:75px;
+			}
+		}
+	}
 	.mynav{
 		ul{
 			li{
@@ -1029,7 +1042,6 @@ label{
 .three-image-column{
 	padding-bottom: 30px;
 	.pltic-contain{
-		
 		.pltic-title{
 			text-align: center;
 			margin-bottom: 70px;
@@ -1064,6 +1076,10 @@ label{
 					@include transition(all, 0.35s, ease-out);
 					@media (max-width: 1400px){
 						padding: 15px 0;
+					}
+					@media (max-width: 992px){
+						opacity:1;
+						visibility: visible;
 					}
 					p{
 						font-size: 18px;
@@ -1504,6 +1520,7 @@ label{
 				@media (max-width: 992px){
 					float: none !important;
 					text-align: center;
+					margin-top: 10px;
 				}
 			}
 		}
