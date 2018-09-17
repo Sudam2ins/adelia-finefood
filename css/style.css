@@ -605,6 +605,9 @@ label {
       max-width: 75px; } }
   .header .mynav ul li {
     margin: 0 25px; }
+    @media (max-width: 1600px) {
+      .header .mynav ul li {
+        margin: 0 20px; } }
     @media (max-width: 1400px) {
       .header .mynav ul li {
         margin: 0 15px; } }
@@ -621,7 +624,8 @@ label {
       background-color: transparent; }
     .header .mynav ul li form .nav-search-form {
       max-width: 100px;
-      border-bottom: 1px solid #ebebeb; }
+      border-bottom: 1px solid #ebebeb;
+      display: none; }
     .header .mynav ul li form svg {
       vertical-align: middle; }
 
@@ -958,6 +962,16 @@ label {
   margin: 0 auto; }
   .title-name .tn-contain .tnc-title {
     margin-bottom: 10px; }
+    .title-name .tn-contain .tnc-title h2 {
+      font-size: 40px;
+      margin: 0;
+      font-family: 'meta-book'; }
+      @media (max-width: 1024px) {
+        .title-name .tn-contain .tnc-title h2 {
+          font-size: 33px; } }
+      @media (max-width: 767px) {
+        .title-name .tn-contain .tnc-title h2 {
+          font-size: 28px; } }
   .title-name .tn-contain .tnc-name {
     text-align: right; }
 
@@ -1184,15 +1198,15 @@ label {
       position: absolute;
       left: 0;
       bottom: -30px; }
-      @media (max-width: 992px) {
-        .footer .footer-content .footer-logo {
-          position: static;
-          left: auto;
-          bottom: auto; } }
+      @media (max-width: 1200px) {
+        .footer .footer-content .footer-logo img {
+          max-width: 80%; } }
       @media (max-width: 992px) {
         .footer .footer-content .footer-logo {
           display: table;
-          margin: 0 auto 40px auto; } }
+          margin: 0 auto 40px auto;
+          position: static;
+          bottom: auto; } }
     .footer .footer-content .footer-link {
       position: relative; }
       @media (max-width: 992px) {

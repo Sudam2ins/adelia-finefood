@@ -659,6 +659,9 @@ label{
 		ul{
 			li{
 				margin:0 25px;
+				@media (max-width: 1600px){
+					margin:0 20px;
+				}
 				@media (max-width: 1400px){
 					margin:0 15px;
 				}
@@ -679,6 +682,7 @@ label{
 					.nav-search-form{
 						max-width: 100px;
 						border-bottom: 1px solid #ebebeb;
+						display: none;
 
 					}
 					svg{
@@ -1123,6 +1127,17 @@ label{
 		margin: 0 auto;
 		.tnc-title{
 			margin-bottom: 10px;
+			h2{
+				font-size: 40px;
+				margin: 0;
+				font-family:'meta-book';
+				@media (max-width: 1024px){
+					font-size: 33px;
+				}
+				@media (max-width: 767px){
+				font-size: 28px;
+			}
+			}
 		}
 		.tnc-name{
 			text-align: right;
@@ -1441,15 +1456,16 @@ label{
 			position: absolute;
 			left: 0;
 			bottom: -30px;
-			@media (max-width: 992px){
-				position: static;
-				left:auto;
-				bottom: auto;
-
+			img{
+				@media (max-width: 1200px){
+					max-width:80%;
+				}
 			}
 			@media (max-width: 992px){
 				display: table;
 				margin: 0 auto 40px auto;
+				position: static;
+				bottom: auto;
 			}
 		}
 		.footer-link{
