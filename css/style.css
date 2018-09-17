@@ -1135,6 +1135,9 @@ label {
     .search-form-text-map .ftm-content .plcftmc-listing .search-form-column .sfc-form .form-inline .action-btn {
       display: block;
       float: right; } }
+@media (max-width: 767px) {
+  .search-form-text-map .ftm-content .plcftmc-listing .text-column {
+    margin-top: 60px; } }
 .search-form-text-map .ftm-content .plcftmc-listing .text-column p {
   margin: 0;
   font-size: 14px; }

@@ -1378,6 +1378,9 @@ label{
 				}
 			}
 			.text-column{
+				@media (max-width: 767px){
+					margin-top: 60px;
+				}
 				p{
 					margin: 0;
 					font-size: 14px;
