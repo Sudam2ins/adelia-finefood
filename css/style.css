@@ -1200,7 +1200,9 @@ label {
       bottom: -30px; }
       @media (max-width: 1200px) {
         .footer .footer-content .footer-logo img {
-          max-width: 80%; } }
+          max-width: 80%;
+          display: table;
+          margin: 0 auto; } }
       @media (max-width: 992px) {
         .footer .footer-content .footer-logo {
           display: table;
